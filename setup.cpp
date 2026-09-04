@@ -225,6 +225,7 @@ void Setup::InitFlow(DataBlock &data) {
                 real delta = pow(b,2) - 4*a*c;
 
                 d.Vc(VX3,k,j,i) = (-b + sqrt(delta)) / (2*a);
+                // d.Vc(VX3,k,j,i) = (-b - sqrt(delta)) / (2*a);
             }
         }
     }
